@@ -218,8 +218,17 @@
     margin-right: 30px;
     margin-top: 20px;
     margin-bottom: 47px;
-    /*border-bottom: 1px solid #080707*/
+    
+    border-bottom: 2px solid transparent;
+    border-radius: 1px;
+    cursor:pointer;
   }
+
+  .genres__item.is-active{
+      border-color: #F65261;
+      text-decoration: none;
+    
+    }
 
   .genres__link{
     font-weight: 500;
