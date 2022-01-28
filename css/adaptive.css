@@ -1,0 +1,72 @@
+@media only screen and (max-width: 992px){
+    .wrapper{
+        max-width: 750px;
+        margin: 0 auto;
+    } 
+
+    .search-form__field {
+        max-width: 150px;
+        padding: 17px 406px 17px 19px;
+        background-color: #323232CC;
+        mix-blend-mode: normal;
+        opacity: 0.7;
+        border-radius: 4px;
+        margin-right: 14px;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    .genres {
+        height: 1200px;
+        background-color: #232323;
+    }
+
+
+    .movie-card__pic {
+        height: 336px;
+        width: 283px;
+        object-fit: cover;
+        transition: .15s all;
+    }  
+}
+
+@media only screen and (max-width: 768px){
+    .wrapper{
+        max-width: 450px;
+        margin: 0 auto;
+    } 
+
+    .search-form__field {
+        width: 100px;
+        padding: 17px 406px 17px 19px;
+        background-color: #323232CC;
+        mix-blend-mode: normal;
+        opacity: 0.7;
+        border-radius: 4px;
+        margin-right: 14px;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    .genres {
+        height: 1100px;
+        background-color: #232323;
+    }
+
+    .movie-card__pic {
+        height: 186px;
+        width: 283px;
+        object-fit: cover;
+        transition: .15s all;
+    }  
+
+    .genres__list {
+        width: 200%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
